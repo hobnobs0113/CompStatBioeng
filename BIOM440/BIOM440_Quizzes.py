@@ -51,6 +51,23 @@ def multiple_choice(optionsDict, questionTemplate, action, num2win):
 
 def multiple_choice_quiz(quizName):
     match quizName.lower():
+        case "github_commands":
+            question = "What is the purpose of the following Git command: XXX ?"
+            optionsDict = {'git clone XXX':'CLONE a repository from GitHub to your local machine',
+                        'git add XXX':'ADD changes in your working directory to the STAGING area',
+                        'git commit -m "XXX"':'records a snapshot of changes in the STAGING area of the local repository with a message',
+                        'git push origin XXX':'PUSH committed changes from the local repository to the remote repository on GitHub',
+                        'git pull origin XXX':'downloads changes from the remote repository on GitHub and immediately merges them to your local repository',
+                        'git branch XXX':'create a new BRANCH or line of development called XXX',
+                        'git checkout XXX':'switch to the BRANCH called XXX',
+                        'git merge XXX':'combine changes from the BRANCH called XXX into the current BRANCH',
+                        'git status':'check the STATUS of your working directory and STAGING area',
+                        'git log':'view the COMMIT history of the current BRANCH',
+                        'git fetch':'get changes from the remote repository on GitHub to your local repository without merging them',
+                        'git diff':'view the differences between your working directory and the STAGING area or between two COMMITS',
+                        'git revert XXX':'creates a new COMMIT that undoes the changes made in the COMMIT with the hash XXX'}
+            action = "You got 10 right - place your left hand on your head."
+            num2win = 10
         case "types":
             optionsDict = {'A = 1':'int', 'B = 2.0':'float', 'C = "3"':'string', 'D = True':'bool', 'E = [1,2,3]':'list',  'F = (1,2,3)':'tuple', 'G = {1,2,3}':'set', 'H = {"a":1,"b":2,"c":3}':'dict', 'I = None':'NoneType', 'J = 1+2j':'complex', 
                     'K = 1.3':'float', 'L = 5-2j':'complex', 'M = {1:2, 3:4}':'dict', "N = {'a','b','c'}":'set', 'O = "hello"':'string', "P = ['x','y','z']":'list', "Q = ('q','r','s')":'tuple', 'R = False':'bool', 'S = None':'NoneType'}
