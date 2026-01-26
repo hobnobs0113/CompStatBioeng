@@ -31,13 +31,8 @@ Below is a summary of the materials for this course (BIOM 440 at Colorado State 
 | -------- | -------- |
 | Hello (Python) world, types, arithmetic operations, iterables, and containers  | [Module 1A ➡️](./Module1-PreliminaryPython/M1A_Intro_to_Python.ipynb) |
 | Importing packages, classes/modules, os navigation, file managment basics  | [Module 1B ➡️](./Module1-PreliminaryPython/M1B_Packages_and_File_Management.ipynb) 
-| Loops, Ranges, Functions, Lambdas | [Module 1C ➡️](./Module1-PreliminaryPython/M1C_Python_Loops_and_Functions.ipynb) 
-| NumPy and linear algebra review | [Module 1D ➡️](./Module1-PreliminaryPython/M1D_NumPy_and_Linear_Algebra.ipynb) 
-| Eigenvalue and Eigen Vector Decompositions | [Module 1E ➡️](./Module1-PreliminaryPython/M1E_Eigen_Values_Vectors_Decompositions_and_Transformations.ipynb) 
-| Visualizing biological data using Matplotlib | [Module 1F ➡️](./Module1-PreliminaryPython/M1F_Matplotlib.ipynb) 
-___
+|
 
-<left><h3> Module 2 :  Multivariable Statistics and Machine Learning for Biological Data.  </h3></left>
 | Description  | Notebook(s)  | 
 | -------- | -------- |
  | Sampling from Distributions, Expected Values and Summary Statistics | [Module 2A ➡️](./Module2-Statistics/M2A_Distributions_Sampling_Expectations_and_SummaryStatistics.ipynb) |
